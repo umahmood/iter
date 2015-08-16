@@ -3,6 +3,9 @@
 A Go library which allows you to iterate over a sequence integers, in a simple 
 and memory efficient way.
 
+**Note**: This is simply a package with a one line function, it probably does not deserve 
+to be in its own package. But I think it shows a powerful feature of Go (empty structs).
+
 # Installation
 
 > go get github.com/umahmood/iter

@@ -14,15 +14,19 @@ to be in its own package. But I think it shows a powerful feature of Go (empty s
 
 When you need to loop over a sequence of integers, you may write:
 
-```for i := 0; i < 10; i++ {
+```
+for i := 0; i < 10; i++ {
     // ...
-}```
+}
+```
 
 With iter you can simply write:
 
-```for i := range iter.N(10) {
+```
+for i := range iter.N(10) {
     fmt.Printf("%d ", i)
-}```
+}
+```
 
 Output:
 
